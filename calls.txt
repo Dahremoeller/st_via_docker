@@ -1,0 +1,6 @@
+"""
+sudo docker build -t your-streamlit-app .
+
+
+sudo docker run -p 8501:8501 your-streamlit-app 
+"""
