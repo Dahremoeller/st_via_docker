@@ -2,5 +2,5 @@
 sudo docker build -t your-streamlit-app .
 
 
-sudo docker run -p 8501:8501 your-streamlit-app 
+sudo docker run -p 8501:8501 -v ~/Documents/python/streamlit-docker/tmp:/my_app_data your-streamlit-app 
 """
